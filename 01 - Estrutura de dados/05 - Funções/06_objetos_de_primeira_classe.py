@@ -1,10 +1,17 @@
-def somar(a, b):
-    return a + b
+salario = 2000
 
+def salario_bonus(bonus,lista):
+    global salario
+    lista_auxiliar = lista.copy()   
+    lista_auxiliar.append(2)
+    print(f"Lista auxiliar : {lista_auxiliar}  ")   
+    salario += bonus
+    return salario
 
-def exibir_resultado(a, b, funcao):
-    resultado = funcao(a, b)
-    print(f"O resultado da operação {a} + {b} = {resultado}")
+    
 
+lista = [1]
+salario_com_bonus = salario_bonus(500,[2,3,4])
+print(salario_bonus)
+print(lista)
 
-exibir_resultado(10, 10, somar)  # O resultado da operação 10 + 10 = 20

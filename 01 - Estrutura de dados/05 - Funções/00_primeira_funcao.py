@@ -1,16 +1,6 @@
-def exibir_mensagem():
-    print("Olá mundo!")
+def criar_carro(modelo, ano, placa, / , marca, motor, combustivel):
+    print(modelo, ano, placa, marca,motor,combustivel)
+    
+criar_carro("Palio",1999,"HPO-3653",marca="Gol",motor="1.0",combustivel="Gasolina")#valido
 
-
-def exibir_mensagem_2(nome):
-    print(f"Seja bem vindo {nome}!")
-
-
-def exibir_mensagem_3(nome="Anônimo"):
-    print(f"Seja bem vindo {nome}!")
-
-
-exibir_mensagem()
-exibir_mensagem_2(nome="Guilherme")
-exibir_mensagem_3()
-exibir_mensagem_3(nome="Chappie")
+criar_carro(modelo="Palio",ano="2000",placa="NGT-2030",marca="FIAT",motor="1.4",combustivel="Alcool")#invalido

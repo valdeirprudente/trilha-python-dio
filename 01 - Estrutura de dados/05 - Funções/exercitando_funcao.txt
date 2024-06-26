@@ -1,0 +1,4 @@
+def soma(x,y):
+    num = x + y
+    retun num
+print(soma(20+30))
