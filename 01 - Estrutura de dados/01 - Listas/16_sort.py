@@ -6,8 +6,8 @@ linguagens = ["python", "js", "c", "java", "csharp"]
 linguagens.sort(reverse=True)  # ["python", "js", "java", "csharp", "c"]
 print(linguagens)
 
-linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort(key=lambda x: len(x))  # ["c", "js", "java", "python", "csharp"]
+linguagens = ["python", "js", "c","valdeirsilva", "java", "csharp"]
+linguagens.sort(key=lambda x: len(x))  # ["c", "js", "java", "python", "csharp","valdeirsilva"]
 print(linguagens)
 
 linguagens = ["python", "js", "c", "java", "csharp"]

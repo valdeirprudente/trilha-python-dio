@@ -2,6 +2,7 @@ carros = (
     "gol",
     "celta",
     "palio",
+    "fusca",
 )
 
 for carro in carros:
